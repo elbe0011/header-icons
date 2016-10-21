@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,18 +17,28 @@ header {
   background-color: #d05c2e;
   color: white;
   text-align: center;
+  padding: .5em 0 0;
+}
+
+h1 {
+  margin: 0;
 }
 
 .left {
+  width: 40px;
   float: left;
+  padding: .5em 0 0;
 }
 
 .right {
+  width: 40px;
   float: right;
+  padding: .5em 0 0;
 }
 
 ul {
   padding: 0;
+  clear: both;
 }
 
 li {
@@ -35,7 +46,16 @@ li {
 }
 
 a {
+  color: white;
+  font-size: 1.125rem;
   display: inline-block;
   text-decoration: none;
   width: 32%;
+  padding: .4rem 0;
+  border: 1px solid;
+  border-color: #a63f38;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
